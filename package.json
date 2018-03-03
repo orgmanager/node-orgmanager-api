@@ -4,7 +4,7 @@
   "description": "A Node.js client for the OrgManager API",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'Nice Test :)'"
+    "test": "env-cmd .env node test.js"
   },
   "repository": {
     "type": "git",
