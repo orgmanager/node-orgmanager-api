@@ -1,0 +1,27 @@
+{
+  "name": "node-orgmanager-api",
+  "version": "1.0.0",
+  "description": "A Node.js client for the OrgManager API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Nice Test :)'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoDanin/node-orgmanager-api.git"
+  },
+  "keywords": [
+    "orgmanager",
+    "api"
+  ],
+  "author": "TiagoDanin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TiagoDanin/node-orgmanager-api/issues"
+  },
+  "homepage": "https://github.com/TiagoDanin/node-orgmanager-api#readme",
+  "dependencies": {
+    "request": "2.83.0",
+    "request-promise-native": "1.0.5"
+  }
+}
