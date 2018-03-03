@@ -3,7 +3,7 @@ link_template_raw: 'https://raw.githubusercontent.com/TiagoDanin/TiagoDanin.gith
 readme: True
 branch: 'gh-pages'
 links:
-  npm: 'https://www.npmjs.com/package/unsplash-source-node'
+  npm: 'https://www.npmjs.com/package/node-orgmanager-api'
 gitauthor:
   name: 'TiagoDanin'
   email: 'TiagoDanin@outlook.com'
