@@ -11,7 +11,7 @@ function makeOptions(token, method, uri, formData) {
 		baseUrl: baseUrl,
 		uri: uri,
 		headers: {
-			'user-agent': 'php-orgmanager-api',
+			'user-agent': 'node-orgmanager-api',
 			'authorization': `Bearer ${token}`
 		},
 		formData: formData,
