@@ -37,7 +37,19 @@ client.getStats()
 
 //Renenerate Token
 client.regenerateToken()
+
+//Renenerate Token and Set new Token
+client.regenerateToken(true)
 ```
+
+# Proxy
+
+```javascript
+const orgmanager = require('node-orgmanager-api')
+const token = 'my-token' //https://orgmanager.miguelpiedrafita.com/token
+const client = new orgmanager(token, 'proxy-url ~> orgmanager')
+```
+
 
 # Installation
 
