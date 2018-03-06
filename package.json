@@ -1,6 +1,6 @@
 {
   "name": "node-orgmanager-api",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A Node.js client for the OrgManager API",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "orgmanager",
     "api"
   ],
-  "author": "TiagoDanin",
+  "author": "OrgManager",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TiagoDanin/node-orgmanager-api/issues"

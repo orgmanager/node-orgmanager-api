@@ -68,4 +68,4 @@ $ npm install node-orgmanager-api
 
 # License
 
-MIT by TiagoDanin
+MIT
