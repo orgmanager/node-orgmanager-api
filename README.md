@@ -1,13 +1,11 @@
-# Node OrgManager API
-
-[![NPM](https://nodei.co/npm/node-orgmanager-api.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/node-orgmanager-api./)
+# Node OrgManager API [![npm version](https://badge.fury.io/js/%40orgmanager%2Fnode-orgmanager-api.svg)](https://www.npmjs.com/package/@orgmanager/node-orgmanager-api)
 
 A Node.js client for the OrgManager API
 
 # Use
 
 ```javascript
-const orgmanager = require('node-orgmanager-api')
+const orgmanager = require('@orgmanager/node-orgmanager-api')
 const token = 'my-token' //https://orgmanager.miguelpiedrafita.com/token
 const client = new orgmanager(token)
 
@@ -45,8 +43,8 @@ client.regenerateToken(true)
 # Proxy
 
 ```javascript
-const orgmanager = require('node-orgmanager-api')
-const token = 'my-token' //https://orgmanager.miguelpiedrafita.com/token
+const orgmanager = require('@orgmanager/node-orgmanager-api')
+const token = 'my-token' //https://orgmanager.miguelpiedrafita.com/toke
 const client = new orgmanager(token, 'proxy-url ~> orgmanager')
 ```
 
@@ -58,7 +56,7 @@ This is a [Node.js](https://nodejs.org/) module available through the
 [`npm`](https://docs.npmjs.com/getting-started/installing-npm-packages-locally) command line tools.
 
 ```sh
-$ npm install node-orgmanager-api
+$ npm install @orgmanager/node-orgmanager-api
 ```
 
 # Dependencies
