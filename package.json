@@ -21,7 +21,7 @@
   },
   "homepage": "https://orgmanager.miguelpiedrafita.com/",
   "dependencies": {
-    "request": "2.86.0",
+    "request": "2.87.0",
     "request-promise-native": "1.0.5"
   }
 }
